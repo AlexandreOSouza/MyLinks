@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+header > img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+}
+
+#vanta {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
